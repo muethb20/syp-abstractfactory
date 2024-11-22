@@ -5,4 +5,9 @@ public class Spaceman implements Character {
     public String describe() {
         return "Ein futuristischer Raumfahrer mit Power-Rüstung";
     }
+
+    @Override
+    public String getImagePath() {
+        return "spaceman.jpg";
+    }
 }
